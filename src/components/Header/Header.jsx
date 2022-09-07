@@ -1,7 +1,7 @@
-import logo from "../assets/logo.png";
-import whatsappIcon from "../assets/icons/whatsapp.svg";
-import ifoodIcon from "../assets/icons/ifood.svg";
-import instagramIcon from "../assets/icons/instagram.svg";
+import logo from "../../assets/logo.png";
+import whatsappIcon from "../../assets/icons/whatsapp.svg";
+import ifoodIcon from "../../assets/icons/ifood.svg";
+import instagramIcon from "../../assets/icons/instagram.svg";
 import "./styled.scss";
 
 export const Header = () => {

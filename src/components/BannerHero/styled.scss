@@ -1,0 +1,55 @@
+@import "../../style/global.scss";
+
+.banner-hero {
+  div {
+    position: relative;
+    margin-top: -20%;
+    margin-left: 20%;
+    
+
+    strong {
+      font-family: $Lato;
+      font-weight: bold;
+      font-size: 2.2rem;
+      color: #1d0605e5;
+    }
+  }
+
+  img {
+    width: 115%;
+    height: 50rem;
+  }
+}
+.banner-hero div {
+  h1 {
+    font-size: 5rem;
+    font-family: $Lilita-one;
+    color: $title-black-87;
+    span {
+      color: $yellow;
+    }
+  }
+
+  p {
+    color: $title-black-60;
+    font-family: $Lato;
+    span {
+      background-color: $yellow;
+      font-weight: bold;
+      color: $title-black-87;
+      border-radius: 5px;
+      padding: 0.2rem;
+    }
+  }
+
+  button {
+    background-color: $red;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-family: $Lato;
+  }
+}

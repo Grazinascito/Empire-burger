@@ -7,6 +7,9 @@ $brown: #3b200b;
 $title-black-87: #34201f;
 $title-black-60: #635352;
 
+$Lilita-one: "Lilita One";
+$Lato: "Lato";
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +23,7 @@ $title-black-60: #635352;
 body {
   font-size: 1.6rem;
   background-color: $background;
+  overflow-x: hidden;
 }
 
 button {
