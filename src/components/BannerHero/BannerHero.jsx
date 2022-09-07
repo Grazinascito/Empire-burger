@@ -9,7 +9,7 @@ export const BannerHero = () => {
       <section className="banner-hero">
         <img src={bannerHeroIcon} alt="" />
         <div>
-         <strong>Uma nova experiência!</strong>
+          <strong>Uma nova experiência!</strong>
           <h1>
             KING <span>BURGER</span>
           </h1>

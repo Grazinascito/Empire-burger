@@ -1,0 +1,48 @@
+@import "../../style/global.scss";
+
+.info-content {
+  display: flex;
+  margin-top: 90px;
+  position: absolute;
+  top: 47%;
+  padding: 2.6rem 2.1rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 100rem;
+  box-shadow: 0px 4px 40px rgba(179, 155, 132, 0.5);
+
+  div + div {
+    padding: 0 4rem 0 2rem;
+  }
+}
+
+.box-treatment {
+  border-left: 1px solid #492E1526;
+  border-right: 1px solid #492E1526;
+}
+
+.box-artesanal,
+.box-treatment,
+.box-delivery {
+  -webkit-font-smoothing: antialiased;
+  color: #1d0605b0;
+  font-family: $Lato;
+  display: flex;
+  h3 {
+    font-family: $Lilita-one;
+    font-size: 2rem;
+    color: $title-black-90;
+    margin-bottom: 0.5rem;
+  }
+
+  div:first-child {
+    background-color: $beige;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    padding: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+  }
+}
