@@ -1,0 +1,66 @@
+@import "../style/global.scss";
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.3rem;
+  background-color: rgba(59, 32, 11, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.content-nav {
+  & a:first-child {
+    font-weight: bold;
+    color: $title-black-87;
+    text-decoration: none;
+  }
+
+  & a + a {
+    margin-left: 4rem;
+    text-decoration: none;
+    color: $title-black-60;
+  }
+}
+
+.content-logo {
+  margin-right: 6rem;
+}
+
+.content-contacs {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  height: 5rem;
+  margin-left: 6rem;
+
+  img {
+    width: 2.7rem;
+  }
+
+  div {
+    border-left: 1px solid #63535263;
+    padding-left: 1.7rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    width: 12.3rem;
+    padding: 0.65rem;
+    font-size: 1.6rem;
+    background-color: $yellow;
+    color: $title-black-87;
+    border: none;
+    border-radius: 0.4rem;
+
+    img {
+      width: 2.4rem;
+    }
+  }
+}

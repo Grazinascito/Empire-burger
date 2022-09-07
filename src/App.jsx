@@ -1,12 +1,12 @@
-import { useState } from 'react'
-
+import "./style/global.scss";
+import { Header } from "./components/Header";
 
 function App() {
 
   return (
-    <div className="App">
-    asdasda
-    </div>
+    <>
+      <Header />
+    </>
   )
 }
 
